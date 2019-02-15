@@ -15,7 +15,7 @@ def m_create_activity():
         subscriptions = json_body["subscriptions"]
 
         FeedManager(user_id).create_activity(activities, subscriptions)
-    return json_body['name']
+    return "DONE WITH"
 
 
 if __name__ == "__main__":
